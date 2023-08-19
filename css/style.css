@@ -1,0 +1,91 @@
+:root{
+    --primary-color: #5b21b6;
+--background-color: #1f2937;
+--text-color: #f9fafb;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: var(--text-color);
+}
+nav{
+    background-color: var(--primary-color);
+}
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: white;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 23px;
+    list-style-type: none;
+    font-size: 20px;
+}
+main,footer{
+    background-color: var(--background-color);
+      text-align: center;
+       padding: 1rem 0;
+}
+h1{
+    padding: 20px 0;
+}
+h2{
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+}
+.container{
+    text-align: left;
+    margin: auto;
+   width: 400px;
+    padding:10px;
+    font-size: 1.5rem;
+}
+.container >input{
+    width:400px;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+.ques1,.ques2{
+    margin: 20px;
+    padding:10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 7px;
+}
+.form-container{
+    width: 400px;
+    margin: auto;
+}
+.ques1 p,.ques2 p{
+    padding: 10px ;
+}
+.ques1 label,.ques2 label{
+    padding: 10px;
+}
+button{
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.answer{
+    padding: 1rem 0;
+    font-size: 2rem;
+    display: block;
+}
+footer ul{
+    width:310px;
+    margin: auto;
+   
+}
